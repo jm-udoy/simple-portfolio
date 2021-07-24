@@ -1,0 +1,72 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.txt_wrapper{
+		/*border: 1px solid white;*/
+		margin-top: 270px;
+	}
+
+	.hero_heading{
+		font-family: Roboto-MediumItalic;
+		font-size: 50px;
+		color: white;
+	}
+	.hero_paragraph{
+		font-family: Roboto-Light;
+		font-size: 14px;
+		color: #a1a1a1;
+	}
+	.get_in_touch{
+		font-family: Roboto-Bold;
+		font-size: 20px;
+		color: #bebaba;
+	}
+
+	li{
+		font-family: Roboto-Italic;
+		font-size: 15px;
+		color: #a1a1a1;
+	}
+	.f_text{
+		font-size: 12px;
+		
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.txt_wrapper{
+		/*border: 1px solid white;*/
+		margin-top: 270px;
+	}
+
+	.hero_heading{
+		font-family: Roboto-MediumItalic;
+		font-size: 65px;
+		color: white;
+	}
+	.hero_paragraph{
+		font-family: Roboto-Light;
+		font-size: 20px;
+		color: #a1a1a1;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+
+/*X-Large devices (desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	
+}
+
+/*XX-Large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	
+}

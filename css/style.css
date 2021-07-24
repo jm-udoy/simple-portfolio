@@ -1,0 +1,112 @@
+@font-face{
+	font-family: Roboto-Bold;
+	src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face{
+	font-family: Roboto-Italic;
+	src: url(../fonts/Roboto-Italic.ttf);
+}
+
+@font-face{
+	font-family: Roboto-Light;
+	src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face{
+	font-family: Roboto-MediumItalic;
+	src: url(../fonts/Roboto-MediumItalic.ttf);
+}
+
+
+.hero{
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center right;
+	background-attachment: fixed;
+
+}
+
+
+
+.txt_wrapper{
+	/*border: 1px solid white;*/
+	margin-top: 100px;
+}
+
+.hero_heading{
+	font-family: Roboto-MediumItalic;
+	font-size: 65px;
+	color: white;
+}
+.hero_paragraph{
+	font-family: Roboto-Light;
+	font-size: 20px;
+	color: #a1a1a1;
+}
+
+.get_in_touch{
+	font-family: Roboto-Bold;
+	font-size: 25px;
+	color: #bebaba;
+}
+
+li{
+	font-family: Roboto-Italic;
+	font-size: 18px;
+	color: #a1a1a1;
+}
+ul{
+	margin-bottom: 2rem;
+}
+
+a{
+	text-decoration: none;
+	color: #a1a1a1;
+}
+
+a:hover {
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 4.5rem;
+}
+
+.contact_wrapper{
+	/*border: 1px solid white;*/
+	margin-top: 180px;
+}
+
+
+footer{
+ background-color: #101010;
+}
+.f_text{
+	font-family: Roboto-Light;
+	font-size: 15px;
+	color: #626262;
+}
+
+
+.email_hover :hover{
+	color: #92278F;
+}
+
+.fb_hover :hover{
+	color: #4267B2;
+}
+.li_hover :hover{
+	color: #0e76a8;
+}
+.tw_hover :hover{
+	color: #00acee;
+}
+.yt_hover :hover{
+	color: #FF0000;
+}
+.cell_hover :hover{
+	color: #03FF02;
+}
