@@ -2,12 +2,12 @@
 @media (max-width: 575.98px) {
 	.txt_wrapper{
 		/*border: 1px solid white;*/
-		margin-top: 270px;
+		margin-top: 300px;
 	}
 
 	.hero_heading{
 		font-family: Roboto-MediumItalic;
-		font-size: 50px;
+		font-size: 40px;
 		color: white;
 	}
 	.hero_paragraph{
